@@ -181,48 +181,10 @@
     background-color: var(--title-name-color);
     color: var(--primary-text-color);    
 }
-.button{
-    color: var(--title-text-color);
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    
-}
-.button:hover,
-.knob:hover {
-    color:var(--title-name-color);
-    background-color: var(--accent-color);
-}
-.button.secondary,
-    color:var(--title-name-color);
-    background-color:var(--accent-color);
-}
 
-/* projects */
-.projects {
-
-}
-
-.projects-title {
-    color: var(--title-text-color);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;  
-}
-.projects-work {
-    color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-}
 /* footer */
-.footer,
-.footer-portfolio {
+.footer-portfolio,
+.footer-studio {
     background-color: var(--bg-color);
     height: 252px;
 }
@@ -264,5 +226,40 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
   }
+/* projects */
+.portfolio-projects {
 
+}
 
+.projects-title {
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;  
+}
+.projects-work {
+    color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+.button{
+    color: var(--title-text-color);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.button:hover,
+.knob:hover {
+    color:var(--title-name-color);
+    background-color: var(--accent-color);
+}
+.button.secondary {
+    color:var(--title-name-color);
+    background-color:var(--accent-color);}
