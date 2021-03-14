@@ -100,10 +100,6 @@
 /* hero */
 .hero{
     background-color: var(--bg-color);
-}
-/* section */
-.section-title {
-    color:var(--title-text-color); 
 } 
 .hero-title {
     color: var(--title-name-color);
@@ -116,13 +112,82 @@
     text-transform: uppercase;
 }
 /* Button */
+.hero .knob {
+    color: var(--title-name-color);
+    background-color: var(--accent-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    }
+    
+    .features {
+    
+    }
+    
+    .features-title {
+      color: var(--title-text-color);
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.2px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+    .features-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 2;
+        letter-spacing: 0.03em;  
+    }
+    /* team */
+    .team{
+        background-color: var(--bg-team-color);
+    }
+    .section-title,
+    .team-title {
+      color:var(--title-text-color);
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+    }
+    .personnel-title {
+        color: var(--title-text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;   
+    }
+    .team-text {
+        color: var(--main-text-color);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em; 
+    }
+
+/* PORTFOLIO */
+.portfolio-page {
+    font-family: Roboto, sans-serif;
+    background-color: var(--title-name-color);
+    color: var(--primary-text-color);    
+}
 .button{
     color: var(--title-text-color);
     cursor: pointer;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height:1,6;
+    
 }
 .button:hover,
 .knob:hover {
@@ -133,79 +198,12 @@
     color:var(--title-name-color);
     background-color:var(--accent-color);
 }
-.hero .knob {
-color:var(--title-name-color);
-background-color: var(--accent-color);
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+
+/* projects */
+.projects {
+
 }
 
-/* work */
-.section-title {
-  color: var(--title-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-.principle-title {
-  color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.2px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.principle-text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-    letter-spacing: 0.03em;  
-}
-/* team */
-.team{
-    background-color: var(--bg-team-color);
-}
-.team-title {
-  color:var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-.personnel-title {
-    color: var(--title-text-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;   
-}
-.team-text {
-    color: var(--main-text-color);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em; 
-}
-/* PORTFOLIO */
-.portfolio-page {
-    font-family: Roboto, sans-serif;
-    background-color: var(--title-name-color);
-    color: var(--primary-text-color);    
-}
-/* projects */
 .projects-title {
     color: var(--title-text-color);
     font-style: normal;
@@ -248,8 +246,7 @@ letter-spacing: 0.06em;
     line-height: 1.2;
     letter-spacing: 0.03em;
   }
-.footer .street,
-.footer-portfolio .street {
+ .street {
     color: var(--title-name-color);
     font-style: normal;
     font-weight: normal;
